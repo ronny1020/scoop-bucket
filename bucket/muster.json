@@ -1,0 +1,44 @@
+{
+  "version": "0.1.1",
+  "description": "Run AI agent CLIs in tabs, each a real terminal with its own git state",
+  "homepage": "https://github.com/ronny1020/muster",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ronny1020/muster/releases/download/v0.1.1/Muster_0.1.1_x64-setup.exe#/setup.exe",
+      "hash": "8a810578bff7ba95b503a05071fe3842bde03cc4246c93ef550bc56edf294a79"
+    }
+  },
+  "installer": {
+    "args": [
+      "/S",
+      "/D=$dir"
+    ]
+  },
+  "uninstaller": {
+    "file": "uninstall.exe",
+    "args": [
+      "/S"
+    ]
+  },
+  "shortcuts": [
+    [
+      "Muster.exe",
+      "Muster"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/ronny1020/muster"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/ronny1020/muster/releases/download/v$version/Muster_$version_x64-setup.exe#/setup.exe"
+      }
+    }
+  },
+  "notes": [
+    "This build is unsigned. Windows SmartScreen may warn on first run.",
+    "The agent CLIs are separate: install claude, codex or agy yourself."
+  ]
+}
