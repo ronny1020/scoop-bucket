@@ -1,12 +1,12 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Run AI agent CLIs in tabs, each a real terminal with its own git state",
   "homepage": "https://github.com/ronny1020/muster",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ronny1020/muster/releases/download/v0.7.0/Muster_0.7.0_x64-setup.exe#/setup.exe",
-      "hash": "605199914a439291e7c1f3bc90707d63725f364af395b312f1b7a229f5b450ed"
+      "url": "https://github.com/ronny1020/muster/releases/download/v0.7.1/Muster_0.7.1_x64-setup.exe#/setup.exe",
+      "hash": "247b25ad1ad9fc991f9bae062e22fdaf6745b75c197349737de7c11f52081a77"
     }
   },
   "installer": {
